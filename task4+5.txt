@@ -1,0 +1,22 @@
+Task 4
+
+A rough estimate: 
+
+A 2004 study [1] estimated that a complete catalog would contain 24'000 protein-coding genes.
+According to the table, per disease there are on average 24 drug targeting genes, also there are
+84 diseases listed on the table, which gives a total of 24*84 = 2016 different targeting genes
+(assuming no overlap, which is probably not true at all).
+
+If we now take a random gene out of these 24'000, then the probability to target a disease listed
+on the table would be 2016/24000 = 0.084.
+
+
+[1] International Human Genome Sequencing Consortium. Finishing the euchromatic sequence of the human genome. Nature. 2004;431(7011):931–45.
+
+
+Task 5
+
+On average there are 29.18 GWAS reported genes per disease and on average 0.26 GWAS reported genes that
+are also target for that disease. This means that given a gene is GWAS reported for some disease,
+the probability to be also a target of that disease is 0.26/29.18 = 0.00891.
+(Which is surprisingly worse than a random gene (see task 4)).
